@@ -8,15 +8,13 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Facebook Clone',
-      home: DefaultTabController(
+    return Scaffold(
+      body: DefaultTabController(
         length: 6,
         child: Scaffold(
           appBar: buildAppBar(),
           body: const TabBarView(children: [
-            Icon(Icons.directions_car),
+            Center(child: Text('Home Page')),
             Icon(Icons.abc_outlined),
             Icon(Icons.directions_car),
             Icon(Icons.directions_car),

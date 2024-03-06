@@ -45,24 +45,48 @@ AppBar buildAppBar() {
         ),
       ),
     ],
-    bottom: const TabBar(tabs: [
-      Tab(
-        icon: FaIcon(FontAwesomeIcons.home),
+    bottom: TabBar(tabs: [
+      const Tab(
+        icon: Icon(
+          Icons.home_filled,
+          size: 30,
+        ),
+      ),
+      const Tab(
+        icon: FaIcon(
+          FontAwesomeIcons.tv,
+          size: 18,
+        ),
+      ),
+      const Tab(
+        icon: FaIcon(
+          FontAwesomeIcons.userGroup,
+          size: 18,
+        ),
+      ),
+      const Tab(
+        icon: FaIcon(
+          FontAwesomeIcons.shop,
+          size: 18,
+        ),
+      ),
+      const Tab(
+        icon: FaIcon(
+          FontAwesomeIcons.bell,
+          size: 21,
+        ),
       ),
       Tab(
-        icon: FaIcon(FontAwesomeIcons.fontAwesome),
-      ),
-      Tab(
-        icon: FaIcon(FontAwesomeIcons.fontAwesome),
-      ),
-      Tab(
-        icon: FaIcon(FontAwesomeIcons.fontAwesome),
-      ),
-      Tab(
-        icon: FaIcon(FontAwesomeIcons.fontAwesome),
-      ),
-      Tab(
-        icon: FaIcon(FontAwesomeIcons.fontAwesome),
+        child: Container(
+          decoration: const BoxDecoration(
+            shape: BoxShape.circle,
+            color: Colors.white,
+          ),
+          child: const CircleAvatar(
+            backgroundImage: NetworkImage(
+                'https://coisasdojapao.com/wp-content/uploads/2023/05/goku-dragon-ball-curiosidades-0.webp'),
+          ),
+        ),
       ),
     ]),
   );
