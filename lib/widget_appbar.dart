@@ -5,8 +5,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 AppBar buildAppBar() {
-  TabController _tabController;
-  const corPadraoIcone = AppCores.brancoClaro;
+
   return AppBar(
     backgroundColor: AppCores.cinzaEscuro,
     title: Row(
@@ -50,43 +49,41 @@ AppBar buildAppBar() {
       ),
     ],
     bottom: TabBar(
-      controller: _tabController,
-      indicatorColor: AppCores.Azulescuro,
-      labelColor: AppCores.Azulescuro,
+
       tabs: [
         const Tab(
           icon: Icon(
             Icons.home_filled,
             size: 30,
-            color: _tabController,
+            color: AppCores.brancoClaro,
           ),
         ),
         const Tab(
           icon: FaIcon(
             FontAwesomeIcons.tv,
             size: 18,
-            color: corPadraoIcone,
+            color: AppCores.brancoClaro,
           ),
         ),
         const Tab(
           icon: FaIcon(
             FontAwesomeIcons.userGroup,
             size: 18,
-            color: corPadraoIcone,
+            color: AppCores.brancoClaro,
           ),
         ),
         const Tab(
           icon: FaIcon(
             FontAwesomeIcons.shop,
             size: 18,
-            color: corPadraoIcone,
+            color: AppCores.brancoClaro,
           ),
         ),
         const Tab(
           icon: FaIcon(
             FontAwesomeIcons.bell,
             size: 21,
-            color: corPadraoIcone,
+            color: AppCores.brancoClaro,
           ),
         ),
         Tab(
