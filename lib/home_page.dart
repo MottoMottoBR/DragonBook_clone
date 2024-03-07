@@ -15,7 +15,8 @@ class MyHomePage extends StatelessWidget {
         length: 6,
         child: Scaffold(
           appBar: buildAppBar(),
-          body: const TabBarView(children: [
+          body: const TabBarView(
+              children: [
 
             Home(),
             Icon(Icons.abc_outlined),

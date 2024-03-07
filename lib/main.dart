@@ -1,3 +1,4 @@
+import 'package:facebook_clone/appp_cores.dart';
 import 'package:flutter/material.dart';
 
 import 'home_page.dart';
@@ -18,8 +19,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.lightBlueAccent,
-          brightness: Brightness.dark,
+          seedColor: AppCores.Azulescuro,
+          // brightness: Brightness.dark,
         ),
       ),
       home: const MyHomePage(),
