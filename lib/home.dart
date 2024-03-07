@@ -66,7 +66,7 @@ class Home extends StatelessWidget {
                             height: 70,
                             width: 122,
                             decoration: const BoxDecoration(
-                              color:AppCores.cinzaClaro,
+                              color: AppCores.cinzaClaro,
                               borderRadius: BorderRadius.only(
                                 bottomRight: Radius.circular(20),
                                 bottomLeft: Radius.circular(20),
@@ -74,7 +74,7 @@ class Home extends StatelessWidget {
                             ),
                           ),
                         ),
-                        //Responsavel botao de clicar no dentro da Imagem
+                        //Responsavel pelo botao de clicar no dentro da Imagem
                         Positioned(
                           bottom: 60,
                           right: 50,
@@ -82,7 +82,8 @@ class Home extends StatelessWidget {
                             width: 30,
                             height: 30,
                             decoration: const BoxDecoration(
-                                color: AppCores.cinzaClaro, shape: BoxShape.circle),
+                                color: AppCores.cinzaClaro,
+                                shape: BoxShape.circle),
                             child: Container(
                               decoration: const BoxDecoration(
                                 color: Colors.lightBlue,
@@ -97,7 +98,7 @@ class Home extends StatelessWidget {
                           left: 20,
                           child: Text(
                             'Criar story',
-                            style: TextStyle( color:AppCores.brancoClaro ),
+                            style: TextStyle(color: AppCores.brancoClaro),
                           ),
                         )
                       ],
