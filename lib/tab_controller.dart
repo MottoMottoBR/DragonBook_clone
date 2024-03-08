@@ -5,8 +5,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'home.dart';
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
+class TabPageController extends StatelessWidget {
+  const TabPageController({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,10 +14,9 @@ class MyHomePage extends StatelessWidget {
       body: DefaultTabController(
         length: 6,
         child: Scaffold(
+          // Configuração do APPBar
           appBar: buildAppBar(),
-          body: const TabBarView(
-              children: [
-
+          body: const TabBarView(children: [
             Home(),
             Icon(Icons.abc_outlined),
             Icon(Icons.directions_car),

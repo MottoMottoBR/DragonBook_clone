@@ -1,7 +1,7 @@
 import 'package:facebook_clone/appp_cores.dart';
 import 'package:flutter/material.dart';
 
-import 'home_page.dart';
+import 'tab_controller.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: AppCores.Azulescuro,
-          // brightness: Brightness.dark,
+          seedColor: Colors.white10,
+          brightness: Brightness.dark,
         ),
       ),
-      home: const MyHomePage(),
+      home: const TabPageController(),
     );
   }
 }

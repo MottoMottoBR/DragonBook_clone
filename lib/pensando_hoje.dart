@@ -16,11 +16,11 @@ Container pensandoHoje() {
           height: 50,
           child: TextFormField(
             decoration: const InputDecoration(
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.all(Radius.circular(50.0)),
-              ),
-              hintText: "No que você está  pensando?", hintStyle: TextStyle( color: AppCores.brancoClaro)
-            ),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(50.0)),
+                ),
+                hintText: "No que você está  pensando?",
+                hintStyle: TextStyle(color: AppCores.brancoClaro)),
           ),
         ),
         const FaIcon(
