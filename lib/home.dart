@@ -15,6 +15,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppCores.pretoEscuro,
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           //Pensando Hoje é primeira barra apos o cabeçalho onde pode  realizar uma nova postagem
           pensandoHoje(),

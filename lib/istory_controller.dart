@@ -1,3 +1,4 @@
+import 'package:facebook_clone/seguidores_istory.dart';
 import 'package:facebook_clone/user_db_local.dart';
 import 'package:flutter/material.dart';
 
@@ -13,15 +14,18 @@ class IstoryController extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(color: AppCores.cinzaEscuro),
-      // width: double.infinity,
+      width: double.infinity,
       // height: 240,
-      child: const Padding(
+      child:  Padding(
         padding: EdgeInsets.all(8.0),
         child: SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
           child: Row(
+            //crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               NewIstory(),
               SizedBox(width: 10),
+              SeguidoresIstory(useriMG: NetworkImage('url'), postIMG: null,),
             ],
           ),
         ),
