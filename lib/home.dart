@@ -30,7 +30,7 @@ class Home extends StatelessWidget {
               height: 10,
             ),
             //Postagem
-           const  FeedPostagens(),
+            const FeedPostagens(),
           ],
         ),
       ),
@@ -70,7 +70,7 @@ class FeedPostagens extends StatelessWidget {
                       child: Text(
                         'Bulma Briefs',
                         style: GoogleFonts.roboto(
-                            fontSize: 20,
+                            fontSize: 18,
                             fontWeight: FontWeight.w700,
                             color: AppCores.brancoClaro),
                       ),
