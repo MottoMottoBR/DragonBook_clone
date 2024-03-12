@@ -85,9 +85,9 @@ class FeedPostagens extends StatelessWidget {
                     ),
                     FaIcon(CupertinoIcons.clear)
                   ],
-                )
+                ),
               ],
-            )
+            ),
           ],
         ),
       ),
