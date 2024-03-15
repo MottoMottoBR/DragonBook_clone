@@ -1,7 +1,7 @@
-import 'package:facebook_clone/user_db_local.dart';
+import 'package:facebook_clone/styles/cores/appp_cores.dart';
+import 'package:facebook_clone/db/user_db_local.dart';
 import 'package:flutter/material.dart';
 
-import 'appp_cores.dart';
 
 class NewIstory extends StatelessWidget {
   const NewIstory({

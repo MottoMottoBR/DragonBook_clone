@@ -1,7 +1,6 @@
-import 'package:facebook_clone/appp_cores.dart';
 import 'package:flutter/material.dart';
 
-import 'tab_controller.dart';
+import 'controllers/tab_controller.dart';
 
 void main() {
   runApp(const MyApp());

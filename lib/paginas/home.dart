@@ -1,11 +1,10 @@
-import 'package:facebook_clone/pensando_hoje.dart';
-
+import 'package:facebook_clone/botoes/pensando_hoje.dart';
+import 'package:facebook_clone/styles/cores/appp_cores.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'appp_cores.dart';
-import 'feed_postagem.dart';
-import 'istory_controller.dart';
+import '../postagens_feed/feed_postagem.dart';
+import '../postagens_feed/istory_postagens.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -25,7 +24,7 @@ class Home extends StatelessWidget {
               height: 10,
             ),
             //Controla a barra de Historias
-            const IstoryController(),
+            const IstoryPostagens(),
             const SizedBox(
               height: 10,
             ),
@@ -34,7 +33,7 @@ class Home extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
-            listFeedPostagens(),
+            const ListaDePostagem(),
           ],
         ),
       ),

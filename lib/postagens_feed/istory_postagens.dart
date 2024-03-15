@@ -1,12 +1,11 @@
-import 'package:facebook_clone/seguidores_istory.dart';
-import 'package:facebook_clone/user_db_local.dart';
+import 'package:facebook_clone/controllers/seguidores_istory_controller.dart';
+import 'package:facebook_clone/styles/cores/appp_cores.dart';
 import 'package:flutter/material.dart';
 
-import 'appp_cores.dart';
-import 'new_istory.dart';
+import '../botoes/new_istory.dart';
 
-class IstoryController extends StatelessWidget {
-  const IstoryController({
+class IstoryPostagens extends StatelessWidget {
+  const IstoryPostagens({
     super.key,
   });
 

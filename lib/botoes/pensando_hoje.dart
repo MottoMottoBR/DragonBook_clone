@@ -1,5 +1,5 @@
-import 'package:facebook_clone/appp_cores.dart';
-import 'package:facebook_clone/user_db_local.dart';
+import 'package:facebook_clone/styles/cores/appp_cores.dart';
+import 'package:facebook_clone/db/user_db_local.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 

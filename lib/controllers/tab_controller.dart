@@ -1,9 +1,9 @@
-import 'package:facebook_clone/widget_appbar.dart';
+import 'package:facebook_clone/widget/widget_appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'home.dart';
+import '../paginas/home.dart';
 
 class TabPageController extends StatelessWidget {
   const TabPageController({super.key});

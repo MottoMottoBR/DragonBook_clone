@@ -1,5 +1,7 @@
-import 'package:facebook_clone/appp_cores.dart';
-import 'package:facebook_clone/user_db_local.dart';
+import 'package:facebook_clone/styles/appp_cores.dart';
+import 'package:facebook_clone/styles/cores/appp_cores.dart';
+
+import 'package:facebook_clone/db/user_db_local.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -51,7 +53,7 @@ AppBar buildAppBar() {
     bottom: TabBar(
       indicatorColor: AppCores.Azulescuro,
       labelColor: AppCores.Azulescuro,
-      unselectedLabelColor: AppCores.brancoClaro,
+      unselectedLabelColor: AppCores.cinzaParaLetras,
       tabs: [
         const Tab(
           icon: Icon(

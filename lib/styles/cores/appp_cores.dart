@@ -8,4 +8,5 @@ class AppCores {
   static const Color Azulescuro = Color(0xFF0766fc);
   static const Color pretoEscuro = Color(0xFF18191b);
   static const Color cinzaClaro = Color(0xFF333436);
+  static const Color cinzaParaLetras = Color(0xFFb8b9bd);
 }
