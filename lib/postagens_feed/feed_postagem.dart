@@ -1,4 +1,4 @@
-import 'package:facebook_clone/controllers/postagem_controller.dart';
+import 'package:facebook_clone/models/postagem_model.dart';
 import 'package:flutter/material.dart';
 
 class ListaDePostagem extends StatelessWidget {

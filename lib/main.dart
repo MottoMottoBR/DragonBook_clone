@@ -1,7 +1,5 @@
-import 'package:facebook_clone/paginas/login_page.dart';
 import 'package:flutter/material.dart';
-
-import 'controllers/tab_menu_controller.dart';
+import 'models/tab_menu_model.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,13 +14,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Facebook Clone',
-      // theme: ThemeData(
-      //   useMaterial3: true,
-      //   colorScheme: ColorScheme.fromSeed(
-      //     seedColor: Colors.white10,
-      //     brightness: Brightness.dark,
-      //   ),
-      // ),
+      theme: ThemeData(
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.white10,
+          brightness: Brightness.dark,
+        ),
+      ),
       home: const TabPageController(),
     );
   }

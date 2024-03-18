@@ -1,4 +1,4 @@
-import 'package:facebook_clone/controllers/seguidores_istory_controller.dart';
+import 'package:facebook_clone/models/seguidores_istory_model.dart';
 import 'package:facebook_clone/styles/app_cores.dart';
 import 'package:flutter/material.dart';
 
