@@ -14,15 +14,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       title: 'Facebook Clone',
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.white10,
-          brightness: Brightness.dark,
-        ),
-      ),
+      // theme: ThemeData(
+      //   useMaterial3: true,
+      //   colorScheme: ColorScheme.fromSeed(
+      //     seedColor: Colors.white10,
+      //     brightness: Brightness.dark,
+      //   ),
+      // ),
       home: const TabPageController(),
     );
   }
