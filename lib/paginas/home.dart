@@ -1,5 +1,5 @@
 import 'package:facebook_clone/botoes/pensando_hoje.dart';
-import 'package:facebook_clone/styles/cores/appp_cores.dart';
+import 'package:facebook_clone/styles/app_cores.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';

@@ -1,4 +1,4 @@
-import 'package:facebook_clone/styles/cores/appp_cores.dart';
+import 'package:facebook_clone/styles/app_cores.dart';
 import 'package:facebook_clone/styles/text_postagem.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

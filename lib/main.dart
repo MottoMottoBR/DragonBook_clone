@@ -1,6 +1,7 @@
+import 'package:facebook_clone/paginas/login_page.dart';
 import 'package:flutter/material.dart';
 
-import 'controllers/tab_controller.dart';
+import 'controllers/tab_menu_controller.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       title: 'Facebook Clone',
       theme: ThemeData(
         useMaterial3: true,

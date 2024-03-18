@@ -1,5 +1,5 @@
 import 'package:facebook_clone/controllers/seguidores_istory_controller.dart';
-import 'package:facebook_clone/styles/cores/appp_cores.dart';
+import 'package:facebook_clone/styles/app_cores.dart';
 import 'package:flutter/material.dart';
 
 import '../botoes/new_istory.dart';
