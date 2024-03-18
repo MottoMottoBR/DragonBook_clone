@@ -2,7 +2,6 @@ import 'package:facebook_clone/styles/app_cores.dart';
 import 'package:facebook_clone/db/user_db_local.dart';
 import 'package:flutter/material.dart';
 
-
 class NewIstory extends StatelessWidget {
   const NewIstory({
     super.key,
@@ -45,7 +44,7 @@ class NewIstory extends StatelessWidget {
             height: 70,
             width: 122,
             decoration: const BoxDecoration(
-              color: AppCores.cinzaClaro,
+              color: AppCores.brancoClaroBordaIstoria,
               borderRadius: BorderRadius.only(
                 bottomRight: Radius.circular(20),
                 bottomLeft: Radius.circular(20),
@@ -63,9 +62,9 @@ class NewIstory extends StatelessWidget {
             decoration: const BoxDecoration(
                 border: Border.fromBorderSide(BorderSide(
                   width: 3,
-                  color: AppCores.cinzaClaro,
+                  color: AppCores.brancoClaroBordaIstoria,
                 )),
-                color: AppCores.cinzaClaro,
+                color: AppCores.brancoClaroBordaIstoria,
                 shape: BoxShape.circle),
             child: Container(
               decoration: const BoxDecoration(
@@ -81,7 +80,7 @@ class NewIstory extends StatelessWidget {
           left: 20,
           child: Text(
             'Criar story',
-            style: TextStyle(color: AppCores.brancoClaro),
+            style: TextStyle(color: AppCores.pretoEscuro),
           ),
         )
       ],

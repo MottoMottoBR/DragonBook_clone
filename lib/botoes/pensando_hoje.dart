@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 Container pensandoHoje() {
   return Container(
     height: 60,
-    decoration: const BoxDecoration(color: AppCores.cinzaEscuro),
+    decoration: const BoxDecoration(color: AppCores.brancoClaro),
     child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
@@ -20,7 +20,7 @@ Container pensandoHoje() {
                   borderRadius: BorderRadius.all(Radius.circular(50.0)),
                 ),
                 hintText: "No que você está  pensando?",
-                hintStyle: TextStyle(color: AppCores.brancoClaro)),
+                hintStyle: TextStyle(color: AppCores.pretoEscuro)),
           ),
         ),
         const FaIcon(

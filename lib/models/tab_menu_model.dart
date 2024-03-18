@@ -15,6 +15,7 @@ class TabPageController extends StatelessWidget {
         length: 6,
         child: Scaffold(
           // Configuração do APPBar
+          //Tem acesso as cores da pragina inicial do APlicativo
           appBar: buildAppBar(),
           body: const TabBarView(children: [
             Home(),

@@ -9,21 +9,23 @@ import 'package:google_fonts/google_fonts.dart';
 AppBar buildAppBar() {
   return AppBar(
     //Toolbar
-    backgroundColor: AppCores.cinzaEscuro,
+    backgroundColor: AppCores.brancoClaro,
     title: Row(
       children: [
         Text(
-          'f',
+          '',
           style: GoogleFonts.roboto(
             fontSize: 34,
-            color: Colors.white,
+            color: AppCores.Azulescuro,
             fontWeight: FontWeight.bold,
           ),
         ),
         Text(
-          'acebook',
+          'facebook',
           style: GoogleFonts.roboto(
-              fontSize: 30, color: Colors.white, fontWeight: FontWeight.bold),
+              fontSize: 30,
+              color: AppCores.Azulescuro,
+              fontWeight: FontWeight.bold),
         ),
       ],
     ),
@@ -32,21 +34,21 @@ AppBar buildAppBar() {
         onPressed: () {},
         icon: const FaIcon(
           FontAwesomeIcons.circlePlus,
-          color: Colors.white,
+          color: Colors.black,
         ),
       ),
       IconButton(
         onPressed: () {},
         icon: const FaIcon(
           FontAwesomeIcons.magnifyingGlass,
-          color: Colors.white,
+          color: Colors.black,
         ),
       ),
       IconButton(
         onPressed: () {},
         icon: const FaIcon(
           FontAwesomeIcons.facebookMessenger,
-          color: Colors.white,
+          color: Colors.black,
         ),
       ),
     ],

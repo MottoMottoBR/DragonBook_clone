@@ -12,7 +12,7 @@ class IstoryPostagens extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const BoxDecoration(color: AppCores.cinzaEscuro),
+      decoration: const BoxDecoration(color: AppCores.brancoClaro),
       width: double.infinity,
       // height: 240,
       child: const Padding(

@@ -32,50 +32,56 @@ class _FeedPostagensState extends State<FeedPostagensModel> {
       padding: const EdgeInsets.only(bottom: 12),
       child: Container(
         width: double.infinity,
-        decoration: const BoxDecoration(color: AppCores.cinzaClaro),
+        decoration: const BoxDecoration(color: AppCores.brancoClaro),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Row(
-                    children: [
-                      CircleAvatar(
-                        backgroundImage: NetworkImage(widget.userFoto),
-                        minRadius: 20,
-                        maxRadius: 20,
-                        // child: ,
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.all(10.0),
-                        child: Text(
-                          widget.userName,
-                          style: GoogleFonts.roboto(
-                              fontSize: 15,
-                              fontWeight: FontWeight.w700,
-                              color: AppCores.brancoClaro),
+              Padding(
+                padding: const EdgeInsets.all(3.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Row(
+                      children: [
+                        CircleAvatar(
+                          backgroundImage: NetworkImage(widget.userFoto),
+                          minRadius: 20,
+                          maxRadius: 20,
+                          // child: ,
                         ),
-                      ),
-                    ],
-                  ),
-                  const Row(
-                    children: [
-                      FaIcon(CupertinoIcons.ellipsis),
-                      SizedBox(
-                        width: 20,
-                      ),
-                      FaIcon(CupertinoIcons.clear),
-                    ],
-                  ),
-                ],
+                        Padding(
+                          padding: const EdgeInsets.all(10.0),
+                          child: Text(
+                            widget.userName,
+                            style: GoogleFonts.roboto(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w700,
+                                color: AppCores.pretoEscuro),
+                          ),
+                        ),
+                      ],
+                    ),
+                    const Row(
+                      children: [
+                        FaIcon(CupertinoIcons.ellipsis),
+                        SizedBox(
+                          width: 20,
+                        ),
+                        FaIcon(CupertinoIcons.clear),
+                      ],
+                    ),
+                  ],
+                ),
               ),
               const SizedBox(
                 height: 10,
               ),
-              Text(widget.postagetext),
+              Padding(
+                padding: const EdgeInsets.all(5.0),
+                child: Text(widget.postagetext),
+              ),
               const SizedBox(
                 height: 10,
               ),
