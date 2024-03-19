@@ -1,7 +1,7 @@
 
 **Nome do Projeto:** DragonBook
 
-**Descrição:** DragonBook é um projeto em desenvolvimento utilizando Flutter, hospedado no GitHub, que tem como objetivo replicar a interface principal do Facebook, mas com uma reviravolta única. Inspirado no universo de Dragon Ball e em homenagem ao seu criador, Akira Toriyama, DragonBook apresenta uma experiência de rede social onde os usuários podem compartilhar postagens, fotos e vídeos relacionados ao mundo de Dragon Ball.
+**Descrição:** DragonBook é um projeto em desenvolvimento utilizando Flutter, que tem como objetivo replicar a interface principal do Facebook, mas com uma reviravolta única. Inspirado no universo de Dragon Ball e em homenagem ao seu criador, Akira Toriyama, DragonBook apresenta uma experiência de rede social onde os usuários podem compartilhar postagens, fotos e vídeos relacionados ao mundo de Dragon Ball.
 
 **Recursos Planejados:**
 
