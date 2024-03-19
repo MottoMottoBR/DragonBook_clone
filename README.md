@@ -13,7 +13,7 @@
 
 **Contribuições:** DragonBook é um projeto de código aberto, e as contribuições são bem-vindas. Desenvolvedores podem ajudar a melhorar a interface, adicionar novos recursos, corrigir bugs e expandir a comunidade DragonBook.
 
-**Objetivo Final:** O objetivo final do DragonBook é criar uma comunidade vibrante onde fãs de Dragon Ball possam se reunir, compartilhar sua paixão pelo universo de Toriyama e celebrar a rica história e personagens que ele criou.
+
 
 [![04b86f6dcfe17d8fcdbe137c7746f49c.md.jpeg](https://imgtr.ee/images/2024/03/19/04b86f6dcfe17d8fcdbe137c7746f49c.md.jpeg)](https://imgtr.ee/image/IOGDZm)
 
