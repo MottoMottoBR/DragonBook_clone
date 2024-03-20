@@ -35,6 +35,6 @@ String get _nome =>
 String get _fotoPerfil =>
     ''' CREATE TABLE fotoPerfil ( fotoPerfil INTEGER PRIMARY KEY AUTOINCREMENTE, Foto Perfil ); ''';
 String get _imgPostagem =>
-    ''' CREATE TABLE imagem ( imgPostagem INTEGER PRIMARY KEY AUTOINCREMENTE, ImG Perfil ); ''';
+    ''' CREATE TABLE imagem ( imgPostagem INTEGER PRIMARY KEY AUTOINCREMENTE, ImG Postagem ); ''';
 String get _textoPostagem =>
-    ''' CREATE TABLE nome ( textoPostagem INTEGER PRIMARY KEY AUTOINCREMENTE, texto Postagem ); ''';
+    ''' CREATE TABLE textoPostagem ( textoPostagem INTEGER PRIMARY KEY AUTOINCREMENTE, texto Postagem ); ''';
